@@ -8,6 +8,16 @@ public class Main {
     public static void main(String[] args) throws IOException {
         int[] zahlen = new int[10];
 
+        // Neu
+        int ichBinNeu = 23;
+
+        // Unnütz
+        System.out.println("Hallo, " + ichBinNeu);
+
+        // Neu und Unnütz
+        if(true)
+            System.out.println("Hiii");
+
         System.out.println("Array");
         // Random Zahlen für Array
         for(int i = 0; i < zahlen.length; i++)
